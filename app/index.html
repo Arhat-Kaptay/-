@@ -11,6 +11,9 @@
 	<!--favicon.ico-->
 	<link rel="stylesheet icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<!-- FONTS -->
+	<link rel="stylesheet" href="fonts/fira/fira.css">
+	<link rel="stylesheet" href="fonts/Proxima-Nova/ProximaNova-Semibold.otf">
 	<!-- bower CSS -->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 	<!-- CSS -->
@@ -21,7 +24,118 @@
 </head>
 <body>
 	
-	<h1>ПРИВЕТ МИР!</h1>
+	<div class="wrapper">
+		<div class="main-content">
+			<header class="page-header">
+				<div class="container-big">
+					<a class="header-log-link">
+						<img src="img/logo.png" alt="logo" class="log-img">
+						<span class="header-log-text">Сайт портфолио</span>
+					</a>
+					<ul class="socials">
+						<il class="socials-item"><a href="http://vk.com/k.arkhat" target="_blank" class="socials-link vk">vk.com</a></il>
+						<il class="socials-item"><a href="https://www.facebook.com/Kaptay95" target="_blank" class="socials-link fb">facebook.com</a></il>
+						<il class="socials-item"><a href="http://github.com/Arhat-Kaptay" target="_blank" class="socials-link gt">github.com</a></il>
+					</ul>
+				</div>
+			</header>
+			<div class="container">
+			  <!-- Сайтбар -->
+				<aside class="sidebar">
+					<nav class="navigation">
+						<ul class="navigation-list">
+							<li class="navigation-item current"><a href="#" class="navigation-link">Обо мне</a></li>
+							<li class="navigation-item"><a href="/my-work.html" class="navigation-link">Мои работы</a></li>
+							<li class="navigation-item"><a href="contact-me.html" class="navigation-link">Связаться со мной</a></li>
+						</ul>
+					</nav>
+					<address class="contacts">
+						<!-- Сам напишу -->
+					</address>
+				</aside>
+				<!-- Изменяемый контент -->
+				<div class="variable-content">
+					<section class="aboutbox">
+						<h2 class="aboutbox-header">Основная информация</h2>
+						<div class="aboutbox-body clearfix">
+							<div class="image-wrap">
+								<div class="avatar-box"><img src="img/face.png" alt="Гомер Симпсон" class="avatar"></div>
+							</div>
+							<div class="worksheet-wrap">
+								<ul class="worksheet-list">
+									<li class="worksheet-item clearfix">
+										<div class="worksheet-what">Меня зовут:</div>
+										<div class="worksheet-info">Гомер Симпсон</div>
+									</li>
+									<li class="worksheet-item clearfix">
+										<div class="worksheet-what">Мой возрост:</div>
+										<div class="worksheet-info">45лет</div>
+									</li>
+									<li class="worksheet-item clearfix">
+										<div class="worksheet-what">Моя специализация:</div>
+										<div class="worksheet-info">FRONTEND разработчик</div>
+									</li>
+									<li class="worksheet-item clearfix">
+										<div class="worksheet-what">Ключевые навыки:</div>
+										<div class="worksheet-info skills">
+											<ul class="skills-list">
+												<li class="skill-item">html</li>
+												<li class="skill-item">css</li>
+												<li class="skill-item">javascript</li>
+												<li class="skill-item">gulp</li>
+												<li class="skill-item">git</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div> 	
+					</section>
+					<section class="aboutbox">
+						<h2 class="aboutbox-header">Опыт работы</h2>
+						<div class="aboutbox-body">
+							<ul class="aboutbox-list">
+								<li class="aboutbox-item icon-work">
+									<div class="where">"ИП Боровицкий" - Продовец дисков</div>
+									<div class="period">Сентябрь 2005 - Август 2008</div>
+								</li>
+								<li class="aboutbox-item icon-work">
+									<div class="where">"ИП Боровицкий" - Продовец дисков</div>
+									<div class="period">Сентябрь 2005 - Август 2008</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="aboutbox">
+						<h2 class="aboutbox-header">Опыт работы</h2>
+						<div class="aboutbox-body">
+							<ul class="aboutbox-list">
+								<li class="aboutbox-item icon-college">
+									<div class="where">"ИП Боровицкий" - Продовец дисков</div>
+									<div class="period">Сентябрь 2005 - Август 2008</div>
+								</li>
+								<li class="aboutbox-item icon-college">
+									<div class="where">"ИП Боровицкий" - Продовец дисков</div>
+									<div class="period">Сентябрь 2005 - Август 2008</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="page-footer">
+		<div class="container">
+			<div class="lock">
+				<a href="login.html" class="lock-inner">Войти</a>
+				<div class="copyright">2015. Это сайт Гомера, пожалуйста, не копируйте и не воруйте его</div>
+			</div>
+		</div>
+	</footer>
+	
 	<script src="bower/jquery/dist/jquery.js"></script>
 	<script src="js/main.js"></script>
 </body>
